@@ -1,0 +1,15 @@
+.videoContainer {
+    position: fixed; /* La vidéo est positionnée par rapport à la fenêtre du navigateur */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Largeur égale à 100% de la largeur de la fenêtre */
+    height: 100vh; /* Hauteur égale à 100% de la hauteur de la fenêtre */
+    overflow: hidden; /* Empêche le défilement dans le conteneur de la vidéo */
+  }
+  
+  .videoTag {
+    width: 100%; /* La largeur de la vidéo est égale à 100% de la largeur du conteneur */
+    height: 100%; /* La hauteur de la vidéo est égale à 100% de la hauteur du conteneur */
+    object-fit: cover; /* Redimensionne la vidéo pour qu'elle couvre tout le conteneur tout en préservant son ratio d'aspect */
+  }
+  

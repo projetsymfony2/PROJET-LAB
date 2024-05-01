@@ -1,0 +1,112 @@
+/* Page.css */
+
+.button3 {
+  display: block;
+  font-family: 'Bebas Neue';
+  transition: all 0.2s ease-in;
+  position: absolute;
+  top:580px;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Réglez la position du bouton au centre */
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center; 
+  z-index: 1;
+  color: #090909;
+  padding: 1.5em em; 
+  cursor: pointer;
+  height: 60px;
+  width: 350px;
+  font-size: 50px;
+  border-radius: 0.5em;
+  background: #8e8e8e;
+  border: 1px solid #ffffff;
+  
+}
+
+/* Autres styles */
+
+
+.button3:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: -100px;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button3:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #ff9d00;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+
+.button3:hover {
+  color: #000000;
+  border: 1px solid #ff9d00;
+}
+
+.button3:hover:before {
+  top: -35%;
+  background-color: #ff9d00;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.button3:hover:after {
+  top: -45%;
+  background-color: #ff9d00;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.videoTag {
+   /* Position fixe pour empêcher le défilement */
+  top: 0;
+  left: 0;
+  width: 100vw; /* 100% de la largeur de la fenêtre visible */
+  height: 100vh; /* 100% de la hauteur de la fenêtre visible */
+  object-fit: cover; /* Pour que la vidéo couvre tout l'espace sans déformer */
+}
+
+/* Page.css */
+.login-button {
+  position: absolute;
+  top: 20px; /* Ajustez la position verticale selon votre design */
+  right: 20px; /* Ajustez la position horizontale selon votre design */
+  background-color: #ffffff; /* Couleur de fond du bouton */
+  color: #000000; /* Couleur du texte du bouton */
+  padding: 10px 20px; /* Espacement intérieur du bouton */
+  border: none; /* Supprimez la bordure du bouton */
+  border-radius: 5px; /* Ajoutez un arrondi aux coins du bouton */
+  font-size: 16px; /* Taille du texte du bouton */
+  text-decoration: none; /* Supprimez le soulignement du lien */
+}
+
+/* Page.css */
+.subscribe-button {
+  position: absolute;
+  top: 20px; /* Ajustez la position verticale selon votre design */
+  right: 130px; /* Ajustez la position horizontale selon votre design */
+  background-color: #ffffff; /* Couleur de fond du bouton */
+  color: #000000; /* Couleur du texte du bouton */
+  padding: 10px 20px; /* Espacement intérieur du bouton */
+  border: none; /* Supprimez la bordure du bouton */
+  border-radius: 5px; /* Ajoutez un arrondi aux coins du bouton */
+  font-size: 16px; /* Taille du texte du bouton */
+  text-decoration: none; /* Supprimez le soulignement du lien */
+}

@@ -1,0 +1,21 @@
+import React from 'react';
+import sample from './video/gif.mp4';
+import logo from './assets/logo.png'; // Assurez-vous de remplacer le chemin par celui de votre logo
+import { BrowserRouter } from 'react-router-dom';
+
+import '../src/styles/Page.css';
+
+function Page2() {
+  return (
+    <BrowserRouter>
+      <div>
+        <img src={logo} alt="Logo" className="logo" /> 
+        <video className='videoTag' autoPlay loop muted>
+          <source src={sample} type='video/mp4' />
+        </video>
+      </div>
+    </BrowserRouter>
+  );
+}
+
+export default Page2;

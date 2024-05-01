@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Styles pour le conteneur principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f9f9f9; /* Couleur de fond */
+}
+
+/* Styles pour les titres */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Couleur du texte */
+}
+
+/* Styles pour les champs de saisie */
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Coins arrondis */
+}
+
+/* Styles pour les boutons */
+button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Coins arrondis */
+    transition: background-color 0.3s ease; /* Animation de transition */
+}
+
+/* Styles pour les boutons survolés */
+button:hover {
+    background-color: #ff4136;
+}
+
+/* Styles pour le message de chargement */
+.loading-message {
+    margin-top: 20px;
+    font-style: italic;
+    color: #777; /* Couleur du texte */
+}

@@ -1,0 +1,50 @@
+/* NewsletterForm.css */
+
+/* Styles pour le conteneur principal */
+.container-Form {
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center; /* Centre le contenu verticalement */
+    height: 100vh; /* Ajuste la hauteur pour couvrir toute la hauteur de l'écran */
+}
+
+/* Styles pour le formulaire de la newsletter */
+.newsletter-form {
+    max-width: 400px; /* Modification de la largeur maximale */
+    margin: 0 auto; /* Centrage horizontal */
+    padding: 20px; /* Ajout d'un espacement intérieur */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Styles pour les titres */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Styles pour les boutons */
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ffb700;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Ajout d'un espacement en haut */
+}
+
+/* Styles pour les boutons survolés */
+button[type="submit"]:hover {
+    background-color: #ffcd4e;
+}
+
+/* Styles pour les paragraphes */
+p {
+    margin-top: 10px;
+    color: green;
+}

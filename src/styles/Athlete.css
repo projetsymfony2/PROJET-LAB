@@ -1,0 +1,123 @@
+
+
+
+
+
+
+  
+.videoTag {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* 100% de la largeur de la fenêtre visible */
+  height: auto; /* Hauteur automatique pour maintenir le rapport d'aspect */
+}
+ 
+.background-image {
+    position: absolute;
+    top: 550px; /* Positionner l'image de fond en haut de la page */
+    left: 0;
+ }
+
+
+.Athlete1 {
+    position: absolute; /* Position absolue par rapport à son parent */
+    top: 1050px; /* Positionnement à 50 pixels depuis le haut */
+    left: 160px; /* Positionnement à 50 pixels depuis la gauche */
+    z-index: 2; /* Assurez-vous que l'image overlay est au-dessus de l'image de fond */
+    width: 500px;
+    transition: transform 0.3s ease, border 0.4s ease;
+    
+    
+
+}
+.Athlete1:hover {
+    /* Agrandir l'image */
+    transform: scale(1.1); 
+    border:8px solid orange;
+  }
+  
+
+.Athlete2 {
+    position: absolute; /* Position absolue par rapport à son parent */
+    top: 2000px; /* Positionnement à 50 pixels depuis le haut */
+    left: 790px; /* Positionnement à 50 pixels depuis la gauche */
+    z-index: 2; /* Assurez-vous que l'image overlay est au-dessus de l'image de fond */
+    width: 500px;
+    transition: transform 0.3s ease, border 0.4s ease;
+ 
+    
+
+}
+.Athlete2:hover {
+    /* Agrandir l'image */
+    transform: scale(1.1); 
+    border:8px solid #ffa500;
+  }
+  
+
+
+
+  .Athlete3 {
+    position: absolute; /* Position absolue par rapport à son parent */
+    top: 2900px; /* Positionnement à 50 pixels depuis le haut */
+    left: 200px; /* Positionnement à 50 pixels depuis la gauche */
+    z-index: 2; /* Assurez-vous que l'image overlay est au-dessus de l'image de fond */
+    width: 500px;
+    transition: transform 0.3s ease, border 0.4s ease;
+    
+    
+
+}
+.Athlete3:hover {
+    /* Agrandir l'image */
+    transform: scale(1.1); 
+    border:8px solid orange;
+  }
+
+
+.text-1 {
+    font-family: 'Bebas Neue';
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    
+    color: white; /* Couleur du texte */
+    font-size: 120px;
+    top: 1100px;
+    line-height: 1.2; 
+    left: 780px;
+    text-align: center; /* Alignement du texte au centre */
+    z-index: 3; /* Assurez-vous que le texte est au-dessus des autres éléments */
+  }
+  
+  .text-2 {
+    font-family: 'Bebas Neue';
+    position: absolute;
+    top: 50%; /* Positionnement au milieu verticalement */
+    left: 50%; /* Positionnement au milieu horizontalement */
+    transform: translate(-50%, -50%); /* Centrage absolu */
+    color: white; /* Couleur du texte */
+    font-size: 120px;
+    top: 2230px;
+    line-height: 1.2; 
+    right: -100px;
+   
+    z-index: 3; /* Assurez-vous que le texte est au-dessus des autres éléments */
+  }
+
+  .text-3 {
+    font-family: 'Bebas Neue';
+    position: absolute;
+    top: 50%; /* Positionnement au milieu verticalement */
+    left: 50%; /* Positionnement au milieu horizontalement */
+    transform: translate(-50%, -50%); /* Centrage absolu */
+    color: white; /* Couleur du texte */
+    font-size: 120px;
+    top: 3100px;
+    left: 1000px;
+    text-align: center; /* Alignement du texte au centre */
+    z-index: 3;
+    line-height: 1;
+  }
+  

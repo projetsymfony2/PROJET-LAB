@@ -1,0 +1,237 @@
+
+
+.piste-athletisme {
+    background-image: url('../assets/piste.jpg');
+    background-size: cover; /* Taille de l'image de fond couvrant toute la div */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image de fond */
+    background-position: top;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.piste {
+    /* Suppression de la bordure */
+    border-right: none;
+    /* Largeur ajustée pour laisser la même distance entre les images */
+    width: calc(25% - 2px); /* 2px correspondant à la bordure de chaque piste */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    position: relative; /* Assurez-vous que le positionnement soit relatif pour utiliser left ou right */
+    left: 20px; /* Ajustez la position de l'image vers la droite de 20 pixels */
+    /* ou */
+    right: 20px; /* Ajustez la position de l'image vers la gauche de 20 pixels */
+}
+
+.etage {
+    height: 200px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+   
+}
+
+
+
+/* Appliquer un effet de transition fluide */
+.bat1 {
+  position: absolute;
+  transition: transform 0.3s ease;
+  /* Définir une taille spécifique pour l'image */
+  width: 100%;
+  max-height: 150%;
+  transform: scale(1.6);
+  top: 680px;
+  left: -30px; /* Modifier la hauteur selon vos besoins */
+}
+
+.bat1:hover {
+  /* Agrandir l'image */
+  transform: scale(1.8); /* Changer la valeur selon vos préférences */
+}
+
+
+  
+  
+ 
+  
+  .fermer {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    background-color: rgba(120, 120, 120, 0.85);
+    padding: 10px 20px; 
+    border-radius: 4px; 
+    color: white; 
+  }
+  
+  .fermer h2 {
+    margin: 0; /* Supprimer les marges par défaut */
+  }
+  
+  .fermer button {
+    background: none; /* Pas de fond */
+    border: none; /* Pas de bordure */
+    color: white; /* Couleur du texte */
+    font-size: 20px; /* Taille de police */
+    cursor: pointer; /* Curseur pointer */
+  }
+  
+  .fermer button:hover {
+    color: #ddd; /* Couleur du texte au survol */
+  }
+
+.texte1 {
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;  
+    transform: translate(-5%, 65%); 
+}
+
+
+
+
+.fleche1 {
+  font-family: 'Bebas Neue';
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;  
+  transform: translate(-10%, 150%); 
+}
+/* Appliquer un effet de transition fluide */
+.bat2 {
+    position: absolute;
+    transition: transform 0.3s ease;
+    /* Définir une taille maximale pour l'image */
+    max-width: 107%;
+    max-height: 100%;
+    top: 1150px;
+    left: -37px;
+    transform: scale(1.6);
+    
+    
+    
+   
+  }
+  
+  /* Lorsque la souris passe sur l'image */
+  .bat2:hover {
+    /* Agrandir l'image */
+    transform: scale(1.8); /* Changer la valeur selon vos préférences */
+  }
+
+  
+
+ .fleche2 {
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;  
+    transform: translate(-40%, 250%); 
+  }
+
+  .texte2 {
+  font-family: 'Bebas Neue';
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;  
+  transform: translate(-45%, 60%); 
+}
+
+.bat3 {
+    position: absolute;
+    transition: transform 0.3s ease;
+    /* Définir une taille maximale pour l'image */
+    max-width: 120%;
+    max-height: 120%;
+    top: 1680px;
+    left: -70px;
+    transform: scale(1.6);
+  }
+  
+  
+  .bat3:hover {
+    /* Agrandir l'image */
+    transform: scale(1.8); 
+  }
+
+  
+  
+  .fleche3 {
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;  
+    transform: translate(-5%, 150%); 
+  }
+  .texte3 {
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;  
+    transform: translate(-10%, 100%); 
+}
+
+ 
+
+
+  .bat4 {
+    position: absolute;
+    transition: transform 0.3s ease;
+    /* Définir une taille maximale pour l'image */
+    max-width: 100%;
+    max-height: 150%;
+    top: 2300px;    
+    right:30px;
+    transform: scale(1.6);
+    
+    
+  }
+  
+  /* Lorsque la souris passe sur l'image */
+  .bat4:hover {
+    /* Agrandir l'image */
+    transform: scale(1.8); /* Changer la valeur selon vos préférences */
+  }
+
+  
+ 
+  .fleche4 {
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;  
+    transform: translate(-30%, 150%); 
+  }
+
+  .texte4 {
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;  
+    transform: translate( -20%, 50%); 
+}
+
+
+
+
+
+
+.texte-piste {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 150px;
+  position: absolute;
+  display: flex ;
+  top:140px ;
+  right: 160px;
+  justify-content: center;
+   /* Ajustez la taille du texte selon vos préférences */
+  color: #ffffff; /* Couleur du texte */
+  text-align: center; /* Centrer le texte */
+  /* Vous pouvez ajouter d'autres styles si nécessaire */
+}

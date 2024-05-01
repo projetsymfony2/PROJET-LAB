@@ -1,0 +1,105 @@
+/* modal.css */
+.texte-1 {
+  position: absolute;
+  top: 1%;
+  justify-content: center; 
+  left: 54%;
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400; 
+  
+
+  
+ 
+}
+
+.texte-2 {
+  position: absolute;
+  top: 16%;
+  justify-content: center; 
+  left: 58%;
+  /* font-size: 1.7rem; */
+  color: #FFF;
+  text-align: center;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.08px; 
+  
+
+  
+ 
+}
+
+.texte-3 {
+  position: absolute;
+  color: #FFF;
+  font-family: "Jost";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.08px; 
+  top: 22%;
+  justify-content: center; 
+  left: 34%;
+  
+  text-align: center;
+  line-height: 1.2; 
+  
+
+  
+ 
+}
+
+/* modal.css */
+
+.texte-4 {
+  position: absolute;
+  top: 75%;
+  left:   67%;
+  transform: translate(-50%, -60%); /* Pour centrer verticalement et horizontalement */
+  color: #FFF;
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.08px;
+  padding: 10px 20px; /* Espace intérieur du rectangle */
+  border: 2px solid #FFF; /* Bordure de 2 pixels solide blanche */
+  border-radius: 8px; /* Bordure arrondie */
+  width: 850px;
+}
+
+
+
+
+
+
+.modal-content {
+  background: rgba(0, 0, 0, 0.85);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.85);
+  max-width: 100%; 
+  max-height: 100%; 
+  overflow: auto;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
